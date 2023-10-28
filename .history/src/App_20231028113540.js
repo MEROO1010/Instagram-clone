@@ -1,6 +1,6 @@
 import "./App.css";
 import Homepage from "./Homepage";
-import Authentication from "./authentication/Authentication";
+import Authenticate from "./authenticate/Authenticate";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { auth } from "./firebase";
@@ -36,7 +36,7 @@ function App() {
           <div class="loader"></div>
         </div>
       ) : (
-        <>{user ? <Homepage /> : <Authentication />}</>
+        <>{user ? <Homepage /> : <Authenticate />}</>
       )}
     </div>
   );

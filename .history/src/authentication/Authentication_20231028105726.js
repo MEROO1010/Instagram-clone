@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Authentication.css";
+import "./Authenticate.css";
 import Login from "./Login";
 import Signup from "./Signup";
 
-function Authentication() {
+function Authenticate() {
   const [active, setActive] = useState("login");
 
   const handleChange = () => {
@@ -40,4 +40,4 @@ function Authentication() {
   );
 }
 
-export default Authentication;
+export default Authenticate;

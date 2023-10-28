@@ -2,8 +2,6 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../firebase";
 import "./Login.css";
-import LOGO from '../images/Instagram_logo.png'
-
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -15,7 +13,7 @@ function Login() {
   return (
     <div className="login">
       <img
-        src={LOGO}
+        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt=""
       />
       <input

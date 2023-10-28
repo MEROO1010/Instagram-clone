@@ -6,7 +6,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../firebase";
-import LOGO from '../images/Instagram_logo.png'
+import LOGO from './images/Instagram_logo'
 
 function Signup() {
   const [email, setEmail] = useState("");

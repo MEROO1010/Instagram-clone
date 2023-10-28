@@ -6,7 +6,6 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../firebase";
-import LOGO from '../images/Instagram_logo.png'
 
 function Signup() {
   const [email, setEmail] = useState("");
@@ -30,7 +29,7 @@ function Signup() {
   return (
     <div className="signup">
       <img
-        src={LOGO}
+        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt=""
       />
       <input

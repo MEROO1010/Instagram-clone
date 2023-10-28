@@ -13,8 +13,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "firebase/auth";
 import { logoutUser } from "../features/userSlice";
 import { auth } from "../firebase";
-import LOGO from '../images/Instagram_logo.png'
-
 
 function Sidenav() {
   const user = useSelector((state) => state.data.user.user);
@@ -27,7 +25,7 @@ function Sidenav() {
     <div className="sidenav">
       <img
         className="sidenav__logo"
-        src={LOGO}
+        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt="Instagram Logo"
       />
 
